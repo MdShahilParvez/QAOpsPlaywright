@@ -1,0 +1,64 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: UIBasicstest.spec.js >> Browser context Playwright test
+- Location: tests\UIBasicstest.spec.js:4:1
+
+# Error details
+
+```
+Test timeout of 30000ms exceeded.
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - link "Free Access to InterviewQues/ResumeAssistance/Material" [ref=e3] [cursor=pointer]:
+      - /url: https://rahulshettyacademy.com/documents-request
+    - link "🎯 I'll help you prepare for your next QA job — Explore the QA Career Accelerator." [ref=e4] [cursor=pointer]:
+      - /url: https://rahulshettyacademy.com/qa-career-accelerator-job-ready
+  - generic [ref=e5]:
+    - heading [level=3] [ref=e6]
+    - generic [ref=e14]:
+      - generic [ref=e15]:
+        - strong [ref=e16]: Incorrect
+        - text: username/password.
+      - generic [ref=e17]:
+        - generic [ref=e18]: "Username:"
+        - textbox "Username:" [ref=e19]: rahulshettyacademy
+      - generic [ref=e20]:
+        - generic [ref=e21]: "Password:"
+        - textbox "Password:" [ref=e22]: learning
+      - generic [ref=e24]:
+        - generic [ref=e25] [cursor=pointer]:
+          - text: Admin
+          - radio "Admin" [checked] [ref=e26]
+        - generic [ref=e28] [cursor=pointer]:
+          - text: User
+          - radio "User" [ref=e29]
+      - combobox [ref=e32]:
+        - option "Student" [selected]
+        - option "Teacher"
+        - option "Consultant"
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - checkbox "I Agree to the terms and conditions" [ref=e36]
+          - generic [ref=e37]:
+            - text: I Agree to the
+            - link "terms and conditions" [ref=e38] [cursor=pointer]:
+              - /url: "#"
+        - button "Signing .." [active] [ref=e39] [cursor=pointer]
+      - paragraph [ref=e41]:
+        - text: (username is
+        - generic [ref=e42]: rahulshettyacademy
+        - text: and Password is
+        - generic [ref=e43]: Learning@830$3mK2
+        - text: )
+```

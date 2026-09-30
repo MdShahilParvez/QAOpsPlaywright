@@ -1,0 +1,1 @@
+{"attachments":[],"errors":[{"message":"beforeAll hook failed: TypeError: Cannot read properties of undefined (reading '0')","trace":"TypeError: Cannot read properties of undefined (reading '0')\n    at APiUtils.createOrder (C:\\PlayWrightAutomation1\\utils\\APiUtils.js:42:57)\n    at C:\\PlayWrightAutomation1\\tests\\WebAPIPart1.spec.js:11:15","timestamp":1788926329717}]}

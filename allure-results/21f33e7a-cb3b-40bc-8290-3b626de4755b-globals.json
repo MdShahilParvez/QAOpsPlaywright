@@ -1,0 +1,1 @@
+{"attachments":[],"errors":[{"message":"beforeAll hook failed: Error: browserContext._wrapApiCall: Target page, context or browser has been closed","trace":"Error: browserContext._wrapApiCall: Target page, context or browser has been closed","timestamp":1788926607312}]}

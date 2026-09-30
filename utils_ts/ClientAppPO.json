@@ -1,0 +1,20 @@
+[
+  {
+    "username" : "parvez.shahil1995@gmail.com",
+   "password" : "Sahil@1234",
+   "productName"   : "ADIDAS ORIGINAL",
+     "country":"India",
+     "cvvCode":"987",
+     "cardName": "Terry Lee",
+     "couponCode":"terry-fik"
+},
+{
+ "username" : "shahilparvez17@gmail.com",
+   "password" : "Sahil@983",
+   "productName"   : "ZARA COAT 3",
+     "country":"United Kingdom",
+     "cvvCode":"847",
+     "cardName": "Brett Lee",
+     "couponCode":"terry-fik" 
+}
+]
